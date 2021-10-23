@@ -1,0 +1,11 @@
+.button{
+  --webkit-appearance: none;
+  padding:20px;
+  box-shadow: none;
+  background-color: #fff;
+  border:1px solid #fff;
+  text-transform: uppercase;
+  &:active{
+    background-color: pink;
+  }
+}

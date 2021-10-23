@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "shared/node_modules": true,
+    "app/node_modules": true,
+    "app/.next": true,
+    "node_modules": true,
+    ".vscode": true,
+    "web/.next": true,
+    "web/node_modules": true,
+    "web/.eslintrc.json": true,
+    "web/.gitignore": true,
+    "web/package-lock.json": true,
+    "web/README.md": true,
+    ".gitignore": true
+  },
+  "workspace.isHidden": false
+}

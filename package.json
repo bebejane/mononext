@@ -4,8 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "(cd app && next dev) & (cd web && next dev -p 3001)"
   },
+  "private": true,
+  "workspaces": [
+    "app",
+    "web",
+    "shared"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.3"
+  },
+  "devDependencies": {
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^8.0.0"
+  }
 }

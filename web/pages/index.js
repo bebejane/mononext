@@ -1,11 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Button from '@/shared/components/Button';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      web
+      <Button>web</Button>
     </div>
   )
 }
