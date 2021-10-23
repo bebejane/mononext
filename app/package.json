@@ -15,6 +15,9 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^8.0.0"
+    
   }
 }
