@@ -19,7 +19,6 @@
     "sass": "^1.43.3"
   },
   "devDependencies": {
-    "next-compose-plugins": "^2.2.1",
-    "next-transpile-modules": "^8.0.0"
+    
   }
 }
