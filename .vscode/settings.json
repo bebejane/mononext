@@ -1,17 +1,17 @@
 {
   "files.exclude": {
-    "shared/node_modules": true,
-    "app/node_modules": true,
-    "app/.next": true,
-    "node_modules": true,
-    ".vscode": true,
-    "web/.next": true,
-    "web/node_modules": true,
-    "web/.eslintrc.json": true,
-    "web/.gitignore": true,
-    "web/package-lock.json": true,
-    "web/README.md": true,
-    ".gitignore": true
+    "shared/node_modules": false,
+    "app/node_modules": false,
+    "app/.next": false,
+    "node_modules": false,
+    ".vscode": false,
+    "web/.next": false,
+    "web/node_modules": false,
+    "web/.eslintrc.json": false,
+    "web/.gitignore": false,
+    "web/package-lock.json": false,
+    "web/README.md": false,
+    ".gitignore": false
   },
   "workspace.isHidden": true
 }

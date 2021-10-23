@@ -14,5 +14,8 @@
     "shared"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.3"
+  }
 }
