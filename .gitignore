@@ -3,8 +3,8 @@ package-lock.json
 .idea
 .next
 
+.vscode
 # env
-
 .env.local
 .env.*.local
 

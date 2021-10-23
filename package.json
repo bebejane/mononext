@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "(next app -p 3000) & (next web -p 3001)"
+    "dev": "(cd app && yarn dev -p 3000) & (cd web && yarn dev -p 3001)"
   },
   "private": true,
   "workspaces": [
