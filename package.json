@@ -4,7 +4,7 @@
   "description": "nexjs monorepo example",
   "main": "index.js",
   "scripts": {
-    "clean":"(cd app && rm -rf .next) & (cd web &&  rm -rf .next) & (rm -rf node_modules && npm i)",
+    "clean": "(cd app && rm -rf .next) & (cd web &&  rm -rf .next) & (rm -rf node_modules && npm i)",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "(cd app && yarn dev -p 3000) & (cd web && yarn dev -p 3001)"
   },
@@ -19,6 +19,8 @@
   "dependencies": {
     "next-compose-plugins": "^2.2.1",
     "next-transpile-modules": "^8.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "sass": "^1.43.3"
   }
 }
