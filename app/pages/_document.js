@@ -4,6 +4,7 @@ class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
     const { html, head } = ctx.renderPage();
+    
     return { ...initialProps, html, head};
   }
   render() {

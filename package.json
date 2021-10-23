@@ -1,9 +1,10 @@
 {
   "name": "mononext",
   "version": "1.0.0",
-  "description": "",
+  "description": "nexjs monorepo example",
   "main": "index.js",
   "scripts": {
+    "clean":"(cd app && rm -rf .next) & (cd web &&  rm -rf .next) & (rm -rf node_modules && npm i)",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "(cd app && yarn dev -p 3000) & (cd web && yarn dev -p 3001)"
   },
