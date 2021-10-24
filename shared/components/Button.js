@@ -9,9 +9,14 @@ const Button = ({ label, onClick, children }) => {
     setColor(color === 'red' ? 'green' : 'red');
     setSize(size+=2);
   }
-  useEffect(()=>ref.current.focus(), [ref])
+  
   return (
-    <button ref={ref} className={styles.button} onClick={handleClick} style={{color, fontSize:size, borderWidth:size}}>
+    <button 
+      ref={ref} 
+      className={styles.button} 
+      onClick={handleClick} 
+      style={{color, fontSize:size, borderWidth:size}}
+    >
       {children}_{color}
     </button>
   )
