@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Head><title>Mononext -- App</title></Head>
+      <Head><title>Mononext -- Web</title></Head>
       <Component {...pageProps} />
     </>
   )
